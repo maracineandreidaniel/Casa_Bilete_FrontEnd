@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(252, 250, 251);
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    margin: 0px;
+}
+
+nav{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding: 20px;
+}
+nav a{
+    color: rgb(247, 196, 206);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header{
+    background-color:rgb(110, 20, 65) ;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 20px;
+}
+
+main{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.statii{
+    background-color: rgb(129, 22, 76) ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 20px;
+}
+
+.statii a{
+   
+    border-radius: 5px;
+    color: rgb(110, 20, 65);
+   font-weight: bold;
+    width: 90px;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+.logare{
+    background-color:rgb(129, 22, 76) ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 20px;
+}
+
+.logare a{
+    margin: 5px;
+    border-radius: 5px;
+    color: rgb(110, 20, 65);
+   font-weight: bold;
+    width: 90px;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 1px;
+}
+
+@media(min-width:720px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+   
+}
