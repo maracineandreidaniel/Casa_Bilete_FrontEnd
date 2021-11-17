@@ -10,7 +10,7 @@ body{
 nav{
     background-color: black;
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
     padding: 20px;
 }
 nav a{
